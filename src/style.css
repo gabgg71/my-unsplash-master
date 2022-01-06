@@ -1,0 +1,142 @@
+
+
+.container{
+    margin: 10px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    break-inside: avoid;
+    
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid #959595;
+    padding: 7px;
+    color: black;
+}
+
+b{
+    font-size: 1.1vw;
+    padding: 50px 0px;
+    position: relative;
+    left: 40%;
+}
+
+.love{
+    color: rgb(140, 0, 255);
+    font-size: 1vw;
+}
+
+span{
+    padding-left: 5px;
+    color:red;
+    font-size: small;
+}
+
+img{
+    background-color: white;
+    object-fit:contain;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+.btn-outline-danger{
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    z-index:100;
+    
+}
+
+.btn-success{
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.column{
+    column-count: 3;
+    margin: 10px 80px;
+    position: relative;
+}
+
+p{
+    position: absolute;
+    left:10%;
+    right: 10%;
+    bottom: 10px;
+    color: white;
+    font-size:2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+    padding: 20px;
+}
+
+
+.container:hover{
+    opacity: 80%;
+    z-index: 2;
+}
+
+.over{
+    z-index:200;
+    background-color: white;
+    width: 500px;
+    height: 220px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0 auto;
+    top:auto;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+over:after{
+    opacity: 0.25;
+    filter: brightness(100%);
+}
+
+.logo{
+    height: 30px;
+}
+
+
+
+
+.buttons{
+    flex-direction: row;
+    margin: 20px;
+    padding-left: 60%;
+}
+
+label{
+    padding: 10px 0px;
+}
+
+.cancel{
+    color: grey;
+}
+
+.add{
+    z-index:300;
+    background-color: white;
+    width: 530px;
+    height: 320px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    
+}
+
+
