@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/gabgg71/my-unsplash-master/main/public/page.png)
+![screenshot](https://github.com/gabgg71/my-unsplash-master/blob/main/public/page.png?raw=true)
 
 ### Built With
 
