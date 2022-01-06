@@ -35,7 +35,7 @@ export const Add = ({handleAdd})=>{
             <div className="buttons">
 
             <button className="btn cancel" onClick={close}>Cancel</button>
-            <button type="submit" className="btn btn-success" onClick={addImage}>Submit</button>
+            <button type="submit" className="btn btn-success end" onClick={addImage}>Submit</button>
             </div>
         </div>
     )

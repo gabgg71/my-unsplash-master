@@ -10,7 +10,6 @@ export const UnsplashApp = () => {
   const [add, setAdd] = useState(false);
 
   window.addEventListener('load', async()=>{
-    console.log(process.env.REACT_APP_API_URL);
         images= await getData();
         images = images.reverse();
         dispatch({

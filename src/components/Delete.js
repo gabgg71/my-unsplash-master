@@ -35,7 +35,7 @@ export const Delete =({setEliminar, handleDelete, target})=>{
             {error && <span>Wrong password, try again!</span>}
             <div className="buttons">
             <button className="btn cancel" onClick={salir}>Cancel</button>
-            <button className="btn btn-danger" onClick={deleteImage}>Delete</button>
+            <button className="btn btn-danger end" onClick={deleteImage}>Delete</button>
             </div>
         </div>
     )
