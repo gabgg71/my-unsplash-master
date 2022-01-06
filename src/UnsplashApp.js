@@ -64,11 +64,10 @@ export const UnsplashApp = () => {
   };
 
   const searching = (title) => {
-    const action = {
+    dispatch({
       type: "search",
       payload: title.toLowerCase(),
-    };
-    dispatch(action);
+    });
   };
 
   return (

@@ -21,7 +21,7 @@ export const Header = ({searching}) => {
   return (
     <div className="row">
       <div className="col-2">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Unsplash_wordmark_logo.svg/2560px-Unsplash_wordmark_logo.svg.png" className="logo" alt="logo"></img>
+        <img src="https://raw.githubusercontent.com/gabgg71/my-unsplash-master/67d8911221d2adaf23f01bfcc0cbf562fe7459d7/public/my_unsplash_logo.svg" className="logo" alt="logo"></img>
       </div>
       <div className="col-8">
         <input type="text" placeholder="Search by name" onKeyDown={look} onFocus={focus}/>
