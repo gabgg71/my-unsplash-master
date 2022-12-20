@@ -15,6 +15,7 @@ export const Add = ({handleAdd})=>{
     const close =()=>{
         document.querySelector(".column").style.filter= "none";
         document.querySelector("input").style.background= "white";
+        document.querySelector(".logo").style.opacity= 1;
         document.body.style.background = "white";
         setAdd(false);
     }

@@ -14,6 +14,8 @@ export const ListItem = ({ imagen , ind,  setEliminar, setTarget}) => {
 
   const muestra = () => {
     document.querySelector(".column").style.filter= "brightness(50%)";
+    document.querySelector("input").style.background= "grey";
+    document.querySelector(".logo").style.opacity= 0.01;
     document.body.style.background = "grey";
     setEliminar(true);
     setTarget(imagen._id);

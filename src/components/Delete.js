@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useForm } from "../hooks/useForm";
 
 export const Delete =({setEliminar, handleDelete, target})=>{
-    const pass = "12345";
     const [ {password}, handlePassChange ] = useForm({
         password: ''
     });
@@ -10,13 +9,15 @@ export const Delete =({setEliminar, handleDelete, target})=>{
     
     const salir =()=>{
         document.querySelector(".column").style.filter= "none";
+        document.querySelector("input").style.background= "white";
+        document.querySelector(".logo").style.opacity= 1;
         document.body.style.background = "white";
         setEliminar(false);
     }
 
     const deleteImage =()=>{
        console.log(target);
-        if(password === pass){
+        if(password === process.env.REACT_APP_PASS){
             handleDelete(target);
             salir();
         }else{

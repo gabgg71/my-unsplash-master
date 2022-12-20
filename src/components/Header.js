@@ -5,6 +5,7 @@ export const Header = ({searching}) => {
     const addI =()=>{
         document.querySelector(".column").style.filter= "brightness(50%)";
         document.querySelector("input").style.background= "grey";
+        document.querySelector(".logo").style.opacity= 0.01;
         document.body.style.background = "grey";
         setAdd(true);
     }

@@ -102,13 +102,13 @@ p{
     flex-direction: column;
     padding: 15px;
     margin: 0 auto;
-    top:auto;
+    top:36%;
     position: absolute;
     left: 30%;
-    top: 40%;
+
 }
 
-over:after{
+.over:after{
     opacity: 0.25;
     filter: brightness(100%);
 }
